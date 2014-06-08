@@ -1,4 +1,4 @@
-setwd("~/R/ExploratoryDataAnalysis/")
+#setwd("~/R/ExploratoryDataAnalysis/")
 data<-read.table("household_power_consumption.txt",sep=";")
 
 data$date <- as.Date(data$V1, format="%d/%m/%Y")
